@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    /* background: rgb(238, 225, 48); */
+    background: url(img/sky\ clouds.png);
+}
+
+h4 {
+    margin-top: 5px;
+}
+
+/* #card {
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+} */
+
+
+#card {
+    width: 90%;
+    max-width: 470px;
+    background: url(img/paul-wallez-9DwugqVh9sU-unsplash.jpg);
+    padding: 40px 35px;
+    /* padding: 10px; */
+    margin: 100px auto 0px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#search {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    /* margin-top: 30px; */
+}
+
+#search input {
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+#search button {
+    padding: 10px;
+    border-radius: 50%;
+    border: none; 
+    cursor: pointer;
+}
+
+.error {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+    display: none;
+    transition: 0.4s ease;
+}
+
+.weather {
+    text-align: center;
+    display: none;
+}
+
+.weather img {
+    height: 200px;
+    width: 200px;
+}
+
+.weather h1 {
+    margin-bottom:7px;
+}
+
+#col {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.details {
+    display: flex;
+    margin-top: 30px;
+    padding: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#col .details  img{
+    height: 45px;
+    width: 50px;
+    margin-right: 10px;
+}
+
